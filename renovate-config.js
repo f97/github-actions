@@ -9,7 +9,7 @@ module.exports = {
   ],
   packageRules: [
     {
-      automerge: true,
+      automerge: false,
       timezone: "Asia/Ho_Chi_Minh",
       automergeType: "squash",
       dependencyDashboardApproval: false,
