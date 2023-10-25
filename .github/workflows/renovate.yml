@@ -1,9 +1,7 @@
 name: Renovate
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0/5 * * * *'
-  push:
 
 jobs:
   renovate:
@@ -14,3 +12,4 @@ jobs:
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
           configurationFile: renovate-config.js
+      - uses: fastify/github-action-merge-dependabot@v3.9.1
