@@ -6,10 +6,11 @@ module.exports = {
   labels: ["dependencies"],
   repositories: [
     'f97/f97.xyz',
+    'f97/fire',
   ],
   packageRules: [
     {
-      automerge: false,
+      automerge: true,
       timezone: "Asia/Ho_Chi_Minh",
       automergeType: "squash",
       dependencyDashboardApproval: false,
