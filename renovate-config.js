@@ -7,6 +7,7 @@ module.exports = {
   repositories: [
     'f97/f97.xyz',
     'f97/fire',
+    'f97/docln',
   ],
   packageRules: [
     {
