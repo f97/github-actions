@@ -9,6 +9,8 @@ module.exports = {
     'f97/fire',
     'f97/docln',
     'f97/pictshare',
+    'f97/wp',
+    'f97/wp-phoenix',
   ],
   packageRules: [
     {
