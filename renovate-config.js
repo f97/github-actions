@@ -8,6 +8,7 @@ module.exports = {
     'f97/f97.xyz',
     'f97/fire',
     'f97/docln',
+    'f97/pictshare',
   ],
   packageRules: [
     {
