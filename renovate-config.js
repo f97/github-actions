@@ -11,6 +11,7 @@ module.exports = {
     'f97/pictshare',
     'f97/wp',
     'f97/wp-phoenix',
+    'f97/unicorn',
   ],
   packageRules: [
     {
