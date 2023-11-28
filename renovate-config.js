@@ -19,7 +19,9 @@ module.exports = {
       timezone: "Asia/Ho_Chi_Minh",
       automergeType: "squash",
       dependencyDashboardApproval: false,
-      minimumReleaseAge: null
+      minimumReleaseAge: null,
+      optimizeForDisabled: true,
+      persistRepoData: true,
     },
   ],
 };
