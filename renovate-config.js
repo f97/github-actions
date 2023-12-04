@@ -12,6 +12,7 @@ module.exports = {
     'f97/wp',
     'f97/wp-phoenix',
     'f97/unicorn',
+    'f97/f97',
   ],
   packageRules: [
     {
