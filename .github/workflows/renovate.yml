@@ -14,4 +14,4 @@ jobs:
           renovate-version: full
           token: ${{ secrets.RENOVATE_TOKEN }}
           configurationFile: renovate-config.js
-      - uses: fastify/github-action-merge-dependabot@v3.9.1
+      - uses: fastify/github-action-merge-dependabot@v3.10.1
